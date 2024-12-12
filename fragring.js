@@ -26,8 +26,4 @@ function initRing() {
     }
 }
 
-if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", initWebring);
-} else {
-    initWebring();
-}
+initWebring();
