@@ -1,10 +1,12 @@
 function initRing() {
+    console.log("start init");
     try {
         let dat = "fragring_dat.json"
         let ringId = document.getElementById("fragRingId");
         let currUrl = window.location.href;
 
         fetch(dat).then(res => res.json()).then(x => {
+            console.log("is able to get into the fetch")
             // find curr index & name
             const currIndex = x.findIndex(y => y.url === currUrl);
             const currName = x[currIndex].name; 
