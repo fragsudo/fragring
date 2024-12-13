@@ -28,4 +28,6 @@ function initRing() {
     }
 }
 
-initWebring();
+window.addEventListener("load", (e) => {
+    initWebring();
+});
