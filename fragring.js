@@ -14,7 +14,7 @@ function initRing() {
                 return res.json();
             })
             .then(x => {
-                console.log(res.json)
+                console.log(`x: ${x}`);
                 console.log("is able to get into the fetch")
 
                 // clear ringId html
