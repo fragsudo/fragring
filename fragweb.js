@@ -11,7 +11,7 @@ function initWeb() {
             })
             .then(x => {
                 // clear webId html
-                ringId.innerHTML = ``
+                webId.innerHTML = ``
                 
                 x.foreach(e => {
                     if (e.url) {
