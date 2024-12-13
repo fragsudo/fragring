@@ -21,7 +21,9 @@ function initRing() {
                 ringId.innerHTML = ``
 
                 // find curr index & name
-                let currIndex = x.findIndex(y => y.url === currUrl);
+                const normalizedCurrUrl = currUrl.replace(/\/+$/, '');
+                const currIndex = x.findIndex(y => y.url.replace(/\/+$/, '') === normalizedCurrUrl);
+                // let currIndex = x.findIndex(y => y.url === currUrl);
                 // check if curr url is in webring
                 if (currIndex === -1) {
                     throw new Error(`ERROR: current url ${currUrl} not found in ring data.`);
