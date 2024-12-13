@@ -1,0 +1,26 @@
+
+body {
+display: flex;
+background-color: rgb(31, 31, 31);
+align-items: center;
+justify-content: center;
+margin-top: 9vh;
+font-family: "Consolas";
+margin-bottom: 5vh;
+color: rgb(227, 227, 227);
+font-size: 105%;
+}
+
+a:link, a:visited {
+    color:rgb(188, 91, 110);
+}
+
+a:hover {
+    color:rgb(139, 66, 80);
+}
+
+a {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}

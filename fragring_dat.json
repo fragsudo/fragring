@@ -2,14 +2,17 @@
     
     {
         "name": "r2m",
-        "url": "https://ret2.monster"
+        "url": "https://ret2.monster",
+        "badgeUrl": "https://badge.les.bi/88x31/rainbow/rainbow/half/outset.png"
     },
     {
         "name": "test1",
-        "url": "https://google.com"
+        "url": "https://google.com",
+        "badgeUrl": "https://badge.les.bi/88x31/rainbow/rainbow/half/outset.png"
     },
     {
         "name": "test2",
-        "url": "https://github.com"
+        "url": "https://github.com",
+        "badgeUrl": "https://badge.les.bi/88x31/rainbow/rainbow/half/outset.png"
     }
 ]
