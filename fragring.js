@@ -4,6 +4,7 @@ function initRing() {
     try {
         
         let ringId = document.getElementById("fragRingId");
+        let ringUrl = `https://github.com/fragsudo/fragring`;
         let currUrl = window.location.href;
 
         fetch(dat)
@@ -37,10 +38,10 @@ function initRing() {
                     const prevObj = x[prevIndex];
                     const prevName = prevObj.name;
                     const prevUrl = prevObj.url;
-                    ringId.innerHTML += `<a href="${prevUrl}">${prevName}</a>`;
+                    ringId.innerHTML += `<a href="${prevUrl}"><- ${prevName} </a>`;
                 }
 
-                ringId.innerHTML += `<a href="${currUrl}">${currName}</a>`;
+                ringId.innerHTML += `<a href="${ringUrl}">FRAGRING (FRAGRANCE RING)</a>`;
 
                 // check if there is next value, if yes then populate
                 if (typeof x[currIndex+1] !== 'undefined') {
@@ -48,7 +49,7 @@ function initRing() {
                     const nextObj = x[nextIndex];
                     const nextName = nextObj.name;
                     const nextUrl = nextObj.url;
-                    ringId.innerHTML += `<a href="${nextUrl}">${nextName}</a>`
+                    ringId.innerHTML += `<a href="${nextUrl}">${nextName} -></a>`
                 }
         }).catch(err => console.log(`ERROR ${err}: Error fetching fragring data.`))
     } catch (err) {
