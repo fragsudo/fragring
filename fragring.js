@@ -15,13 +15,13 @@ function initRing() {
             })
             .then(z => {
                 
-                let x = [item for item in z if "queryId" in item]
+                let x = z.filter(item => item.hasOwnProperty('queryId'));
                 
                 // console.log(`x: ${x}`);
                 // console.log("is able to get into the fetch")
 
                 // clear ringId html
-                ringId.innerHTML = ``
+                ringId.innerHTML = ``;
 
                 // find curr obj
                 let normalizedQueryId = parseInt(queryId.toLowerCase().replace(/\s/g, ''));
