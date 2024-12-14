@@ -29,3 +29,11 @@ a {
     width: 65vw;
     position: relative;
 }
+
+#randomSite {
+    color:rgb(188, 91, 110);
+}
+
+#randomSite:hover {
+    color:rgb(139, 66, 80);
+}
