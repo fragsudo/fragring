@@ -1,7 +1,7 @@
 # FragWeb
 
 To be added to the FragWeb webpage (https://fragsudo.github.io/fragring/), please provide {maintainer} with the following information:
-- name or username you wish to use
+- name or username
 - blog URL
 - (optional) badge image/gif URL
 
