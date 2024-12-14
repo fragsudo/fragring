@@ -3,7 +3,7 @@
 To be added to the FragWeb webpage (https://fragsudo.github.io/fragring/), please provide {maintainer} with the following information:
 - name or username
 - blog URL
-- (optional) badge image/gif URL
+- (optional) badge image/gif URL _OR_ badge image/gif (can host badge URL for you)
 
 # FragRing
 
