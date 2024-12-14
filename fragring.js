@@ -13,7 +13,10 @@ function initRing() {
                 }
                 return res.json();
             })
-            .then(x => {
+            .then(z => {
+                
+                let x = [item for item in z if "queryId" in item]
+                
                 // console.log(`x: ${x}`);
                 // console.log("is able to get into the fetch")
 
