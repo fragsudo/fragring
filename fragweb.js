@@ -2,6 +2,8 @@ function initWeb() {
     let dat = "https://fragsudo.github.io/fragring/fragring_dat.json"
     try {
         let webId = document.getElementById("fragWebId");
+        let randomSite = document.getElementById("randomSite");
+
         fetch(dat)
             .then(res => {
                 if (!res.ok) { 
@@ -28,6 +30,13 @@ function initWeb() {
                         webId.innerHTML += `<img width="88" height="31" padding="10px" align="center" src="${placeholder}" title="${e.name}">`;
                     }
                     
+                });
+
+                randomSite.addEventListener("click", (e) => {
+                    let z = x.filter(item => item.hasOwnProperty("url"));
+                    let randomSiteIndex = z[Math.floor(Math.random() * z.length)];
+                    
+                    window.open(z[randomSiteIndex].url, "_blank");
                 });
                 
         }).catch(err => console.log(`ERROR ${err}: Error fetching fragweb data.`))
