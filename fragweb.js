@@ -22,12 +22,12 @@ function initWeb() {
                 x.forEach(e => {
                     if (e.url) {
                         if (e.badgeUrl) {
-                            webId.innerHTML += `<a href="${e.url}" target="_blank"><img width="88" height="31" padding="10px" align="center" src="${e.badgeUrl}" title="${e.name}"></a>`;
+                            webId.innerHTML += `<a href="${e.url}" target="_blank"><img width="88" height="31" margin="10px" align="center" src="${e.badgeUrl}" title="${e.name}"></a>`;
                         } else {
-                            webId.innerHTML += `<a href="${e.url}" target="_blank"><img width="88" height="31" padding="10px" align="center"  src="${placeholder}" title="${e.name}"></a>`;
+                            webId.innerHTML += `<a href="${e.url}" target="_blank"><img width="88" height="31" margin="10px" align="center"  src="${placeholder}" title="${e.name}"></a>`;
                         }
                     } else {
-                        webId.innerHTML += `<img width="88" height="31" padding="10px" align="center" src="${placeholder}" title="${e.name}">`;
+                        webId.innerHTML += `<img width="88" height="31" margin="10px" align="center" src="${placeholder}" title="${e.name}">`;
                     }
                     
                 });
