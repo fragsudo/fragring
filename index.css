@@ -24,3 +24,8 @@ a {
     margin-bottom: 0;
     text-decoration: none;
 }
+
+.center {
+    width: 65vw;
+    position: relative;
+}
