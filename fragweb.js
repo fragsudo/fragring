@@ -34,9 +34,9 @@ function initWeb() {
 
                 randomSite.addEventListener("click", (e) => {
                     let z = x.filter(item => item.hasOwnProperty("url"));
-                    let randomSiteIndex = z[Math.floor(Math.random() * z.length)];
+                    let randomSiteObj = z[Math.floor(Math.random() * z.length)];
                     
-                    window.open(z[randomSiteIndex].url, "_blank");
+                    window.open(randomSiteObj.url, "_blank");
                 });
                 
         }).catch(err => console.log(`ERROR ${err}: Error fetching fragweb data.`))
