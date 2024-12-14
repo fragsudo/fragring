@@ -21,7 +21,7 @@ function initRing() {
                 ringId.innerHTML = ``
 
                 // find curr obj
-                let normalizedQueryId = queryId.toLowerCase().replace(/\s/g, '');
+                let normalizedQueryId = parseInt(queryId.toLowerCase().replace(/\s/g, ''));
                 let currIndex = x.findIndex(y => y.queryId === normalizedQueryId);
                 
                 // check if curr url is in webring
