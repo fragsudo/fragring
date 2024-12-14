@@ -1,5 +1,5 @@
 function initWeb() {
-    let dat = "fragring_dat.json"
+    let dat = "https://fragsudo.github.io/fragring/fragring_dat.json"
     try {
         let webId = document.getElementById("fragWebId");
         fetch(dat)

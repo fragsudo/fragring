@@ -1,6 +1,5 @@
 function initRing() {
-    let dat = "fragring_dat.json"
-    console.log("start init");
+    let dat = "https://fragsudo.github.io/fragring/fragring_dat.json"
     try {
         
         let ringId = document.getElementById("fragRingId");
@@ -27,7 +26,7 @@ function initRing() {
                 
                 // check if curr url is in webring
                 if (currIndex === -1) {
-                    throw new Error(`ERROR: current url ${currUrl} not found in ring data.`);
+                    throw new Error(`ERROR: current queryId ${queryId} not found in ring data.`);
                 }
 
                 // assign currObj stuff
