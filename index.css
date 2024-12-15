@@ -38,6 +38,7 @@ a {
     color:rgb(139, 66, 80);
 }
 
-.colored {
-    color:rgb(188, 91, 110);
+.underline {
+    /* color:rgb(188, 91, 110); */
+    text-decoration: underline;
 }
