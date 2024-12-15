@@ -19,3 +19,7 @@ The **FragRing** is a webring. A webring is a collection/group of websites that 
 <script src="https://fragsudo.github.io/fragring/fragring.js"></script>
 <div id="fragRingId">YOUR_ID_HERE</div>
 ```
+
+# Badge Making?
+
+There are a lot of online resources for making your badge if you so choose to. I recommend [this 88x31 button maker](https://hekate2.github.io/buttonmaker/) which allows you to import your own images and write your own text to arrange for your badge. Note that thsi button maker does not support exporting your creation as a GIF. If you would like to utilize some other badge as your badge, then you can visit websites like [this collection of a bunch of them](https://cyber.dabamos.de/88x31/).
