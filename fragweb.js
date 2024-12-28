@@ -33,7 +33,7 @@ function initWeb() {
                 });
 
                 randomSite.addEventListener("click", (e) => {
-                    let z = x.filter(item => item.hasOwnProperty("url") && parseInt(item.queryId) !== 1 && parseInt(item.queryId) !== 2); // tmp get rid of test stuff in
+                    let z = x.filter(item => item.hasOwnProperty("url") && parseInt(item.queryId) !== 2 && parseInt(item.queryId) !== 3); // tmp get rid of test stuff in
                     let randomSiteObj = z[Math.floor(Math.random() * z.length)];
                     
                     window.open(randomSiteObj.url, "_blank");

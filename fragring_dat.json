@@ -7,13 +7,13 @@
         "badgeUrl": "https://fragsudo.github.io/fragring/badges/r2m_badge.gif"
     },
     {
-        "queryId": 1,
+        "queryId": 2,
         "name": "test1",
         "url": "https://google.com",
         "badgeUrl": "https://badge.les.bi/88x31/rainbow/rainbow/half/outset.png"
     },
     {
-        "queryId": 2,
+        "queryId": 3,
         "name": "test2",
         "url": "https://github.com",
         "badgeUrl": "https://badge.les.bi/88x31/rainbow/rainbow/half/outset.png"
@@ -37,5 +37,11 @@
         "name": "acacia",
         "url": "https://www.tumblr.com/perfumeliker",
         "badgeUrl": "https://fragsudo.github.io/fragring/badges/acacia_badge.png"
+    },
+    {
+        "queryId": 1,
+        "name": "ancientcrypt",
+        "url": "https://ancientcrypt.tech/",
+        "badgeUrl": "https://ancientcrypt.neocities.org/stamps/AC.png"
     }
 ]
