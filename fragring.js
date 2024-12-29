@@ -46,7 +46,7 @@ function initRing() {
 
                 // check if there is next value
                 // if no next value (currIndex is end of dat), next is now beginning of data
-                let nextIndex = (typeof x[currIndex-1] === 'undefined') ? (currIndex - 1 + x.length) % x.length : currIndex - 1 + x.length;
+                let nextIndex = (typeof x[currIndex-1] === 'undefined') ? (currIndex + 1) % x.length : currIndex - 1 + x.length;
                 let nextObj = x[nextIndex];
                 ringId.innerHTML += `<a href="${nextObj.url}">${nextObj.name} -></a>`;
         }).catch(err => console.log(`ERROR ${err}: Error fetching fragring data.`))
