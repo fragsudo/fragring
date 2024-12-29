@@ -13,18 +13,6 @@
         "badgeUrl": "https://ancientcrypt.neocities.org/stamps/AC.png"
     },
     {
-        "queryId": 2,
-        "name": "test1",
-        "url": "https://google.com",
-        "badgeUrl": "https://badge.les.bi/88x31/rainbow/rainbow/half/outset.png"
-    },
-    {
-        "queryId": 3,
-        "name": "test2",
-        "url": "https://github.com",
-        "badgeUrl": "https://badge.les.bi/88x31/rainbow/rainbow/half/outset.png"
-    },
-    {
         "name": "velveteenrabbit",
         "url": "https://www.tumblr.com/velveteenbunnierabbit",
         "badgeUrl": "https://fragsudo.github.io/fragring/badges/velveteenbunnierabbit_badge_tmp.png"
